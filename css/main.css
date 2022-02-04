@@ -25,7 +25,7 @@ html {
 
 .nft-card {
   padding: 1.5rem 1.25rem;
-  background-color: #14253d;
+  background-color: #14253e;
   max-width: 18.5rem;
   border-radius: 1rem;
   display: -webkit-box;
@@ -59,6 +59,10 @@ html {
   color: white;
   font-size: 1.25rem;
   font-weight: 600;
+}
+
+.nft-card__title:hover {
+  color: #00fff7;
 }
 
 .nft-card__text {
@@ -146,10 +150,14 @@ html {
   color: #8bacda;
 }
 
-.nft-card__author a {
+.nft-card__author .nft-card__link {
   color: white;
   text-decoration: none;
   font-weight: 300;
+}
+
+.nft-card__author .nft-card__link:hover {
+  color: #00fff7;
 }
 
 .nft-card__line {

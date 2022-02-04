@@ -28,6 +28,10 @@
 	color: $white;
 	font-size: 1.25rem;
 	font-weight: 600;
+
+    &:hover {
+        color: $cyan;
+    }
 }
 
 .nft-card__text {
@@ -98,10 +102,14 @@
 		color: $softBlue;
 	}
 
-	a {
+	.nft-card__link {
 		color: $white;
 		text-decoration: none;
         font-weight: 300;
+
+        &:hover {
+            color: $cyan;
+        }
 	}
 }
 
