@@ -1,0 +1,36 @@
+.nft-card__price {
+	display: flex;
+
+	img {
+		align-self: center;
+		margin-right: 0.45rem;
+	}
+
+	p {
+		margin: 0;
+		font-weight: 600;
+		font-size: 0.8rem;
+		color: $cyan;
+	}
+}
+
+.nft-card__time {
+	display: flex;
+
+	img {
+		align-self: center;
+		margin-right: 0.4rem;
+	}
+
+	p {
+		margin: 0;
+		font-weight: 400;
+		font-size: 0.8rem;
+		color: $softBlue;
+	}
+}
+
+.nft-card__details {
+	display: flex;
+	justify-content: space-between;
+}

@@ -1,0 +1,31 @@
+.nft-card__title,
+.nft-card__text {
+	margin: 0;
+}
+
+.nft-card__title,
+.nft-card__text,
+.nft-card__details,
+.nft-card__line {
+	margin-bottom: 0.9rem;
+}
+.nft-card__title {
+	color: $white;
+	font-size: 1.25rem;
+	font-weight: 600;
+
+    &:hover {
+        color: $cyan;
+    }
+}
+
+.nft-card__text {
+	color: $softBlue;
+	font-weight: 300;
+	line-height: 1.6;
+	font-size: 0.9rem;
+}
+
+.nft-card__content {
+	margin: 1.2rem 0 0 0;
+}
