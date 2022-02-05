@@ -169,8 +169,8 @@ html {
   width: 16rem;
   height: 16rem;
   margin: 0 auto;
-  -webkit-transition: all 1s ease-out;
-  transition: all 1s ease-out;
+  -webkit-transition: all 1s ease-in-out;
+  transition: all 1s ease-in-out;
 }
 
 .nft-card__img-container {
@@ -189,6 +189,8 @@ html {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-transition: all 1s ease-in-out;
+  transition: all 1s ease-in-out;
 }
 
 .view-icon {
@@ -200,46 +202,12 @@ html {
   margin: 0 auto;
 }
 
-.nft-card__img-container + .img-hover:hover {
+.nft-card__img-container .img-hover:hover {
   opacity: 1;
+  -webkit-transition: all 1s ease-in-out;
+  transition: all 1s ease-in-out;
 }
 
-/* 
-    To solve the hover effect with the view icon, with .nft-card__img-wrapper I'm
-    positioning .img-hover over the .nft-card__img
-    .view-icon is positioned in the middle of .img-hover using flexbox
-    With JS, on mouseover it toggle d-none to show the color and the view-icon
-
-	That didn't work. So, we need to have a container for both the img and
-	the icon. We can use a container with position relative,  
-	Inside it, 
-	
-*/
-/* .nft-card__img-wrapper {
-	position: relative;
-}
-
-.view-icon {
-	align-self: center;
-	justify-self: center;
-	margin: 0 auto;
-	z-index: 20;
-	opacity: 100;
-	transition: all 1s ease-out;
-}
-
-.img-hover {
-    @include img-size;
-	display: flex;
-	position: absolute;
-	top: 0;
-	bottom: 0;
-	left: 0;
-	right: 0;
-	z-index: 10;
-	transition: all 1s ease-out;
-}
- */
 .main {
   background-color: #0d192b;
   display: -webkit-box;
