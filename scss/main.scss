@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap");
 
+@import "abstract/mixins";
 @import "abstract/variables";
 
 @import "base/resets";
@@ -9,5 +10,6 @@
 @import "components/nft-card__author";
 @import "components/nft-card__content";
 @import "components/nft-card__details";
+@import "components/nft-card__img";
 
 @import "layout/main-content";
