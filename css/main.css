@@ -98,6 +98,7 @@ html {
   color: white;
   font-size: 1.25rem;
   font-weight: 600;
+  cursor: pointer;
 }
 
 .nft-card__title:hover {
@@ -175,6 +176,7 @@ html {
 
 .nft-card__img-container {
   position: relative;
+  cursor: pointer;
 }
 
 .img-hover {
